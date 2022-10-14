@@ -1,20 +1,27 @@
 # Criacao-de-pacotes-em-Python
-Neste projeto é criado um pacote de processamento de imagens em Python e disponibilizá-lo no repositório Pypi. Assim você poderá reutilizá-lo facilmente e compartilhá-lo com outras pessoas. 
-
+Neste projeto é criado um pacote de processamento de imagens em Python e disponibilizá-lo no repositório Pypi. 
 
 # package_name
 
 Description. 
-The package package_name is used to:
-	- 
-	-
+The package image-processing is used to:
+	Processing:
+	- Histogram marching
+	- Structural similarity
+	- Resize image
+	Utils:
+	- Read image
+	- Save image
+	- Plot image
+	- plot result
+	- Plot histogram
 
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
 
 ```bash
-pip install package_name
+pip install image-processing
 ```
 
 ## Usage
@@ -25,7 +32,7 @@ file1_name.my_function()
 ```
 
 ## Author
-My_name
+José Augusto
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
